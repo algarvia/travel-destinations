@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Asar');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Slabo 27px', serif;
+}
+
+body {
+    padding-top:200px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+/* This is the "nav bar" attributes==========================*/
+.main-banner {
+    width: 100%;
+    height: 200px;
+    /*background: #2B10FF;*/
+    background: #A3AABA;
+    margin: 0;
+    position: fixed; /*changed to fixed to keep the banner fixed*/
+    padding: 10px 0 10px 0;
+    top: 0;
+    z-index: 99;
+}
+
+.main-banner h1 {
+    /*width: 100%;*/
+    height: 40px;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.main-banner ul {
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding:0;
+    bottom: 0;
+    overflow: auto;
+    position: absolute;
+} 
+
+.main-banner li {
+    float: left;
+    width: 33%;
+    top: 75%;
+    padding: 20px;
+    /*position: absolute;*/
+}
+
+.main-banner li a {
+    color: #DBE3F9;
+    border-bottom: 1px solid #DBE3F9;
+    text-decoration: none;
+}
+
+/* This is the main content (main page pictures) attributes===============*/
+
+.main-content {
+    /*overflow: auto;*/
+    margin: auto;
+}
+
+.latin-america {
+    width: 80%;
+    margin: auto;
+    /*margin-top: 150;*/
+    padding: 10px 0 10px 0;
+    /*height: 800px */
+    /*background-image: url(/images/machu-pichu.jpg);*/
+    background-size: cover;
+    background-position: center;
+    /*position: absolute;*/
+    /*float: left;    */
+    display: block;
+    text-align: center;
+    position: center;
+}
+
+.europe {
+    width: 80%;
+    margin:auto;
+    padding-bottom: 10px;
+    /*height: 800px */
+    /*background-image: url(/images/machu-pichu.jpg);*/
+    background-size: cover;
+    background-position: center;
+    /*position: absolute;*/
+    /*float: left;    */
+    display: block;
+    text-align: center
+}
+
+.asia {
+    width: 80%;
+    margin: auto;
+    /*height: 800px */
+    /*background-image: url(/images/machu-pichu.jpg);*/
+    background-size: cover;
+    background-position: center;
+    /*position: absolute;*/
+    /*float: left;    */
+    display: block;
+    text-align: center;
+}
+.full-img {
+    width: 100%;
+}
+
+/* This is the europe.html page attributes=============================*/
+
+.italy img, .greece img, .switzerland img {
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding-top: 30px;
+}
+
+.description h1 {
+    color: black;
+    padding-top: 10px;
+    margin-left: 170px;
+    font-family: 'Asar', serif;
+    font-size: 30px;
+}
+
+.description p {
+    width: 75%;
+    color: black;
+    padding-top: 10px;
+    margin-left: 170px;
+    font-family: 'Asar', serif;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+/* This is the asia.html page attributes==============================================*/
+
+.vietnam img, .thailand img, .japan img{
+   display: block;
+    margin: auto;
+    width: 60%;
+    padding-top: 30px;
+}
+
+.description1 h1 {
+    color: black;
+    margin-left: 120px;
+    font-family: 'Asar', serif;
+    font-size: 30px;
+}
+
+.description1 p {
+    width: 85%;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 120px;
+    font-family: 'Asar', serif;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.picture-group, .picture-group2 {
+    margin-left: 170px;
+    width: 80%;
+    overflow:auto;
+}
+
+.side {
+    padding: 0 15px 0 15px;
+    float: left;  
+    position: relative;
+    display: block;
+}
+
+.side2 {
+    margin-top: -635px;
+    margin-left: 635px;
+    padding: 0 15px 0 0;
+    position: relative;
+    display: block;
+}
+
+.top {
+    margin-top: 10px;
+    margin-left: 310px; 
+    padding: 0 15px 15px 0;
+    z-index: 50;
+    position: relative;
+    display: block;
+}
+
+.top2 {
+    margin-top: 0;
+    margin-left: 325px;
+    padding: 0 15px 15px 0;
+    position: relative;
+    display: block;
+    z-index: 50;
+    }
+
+.main {
+    padding: 0 15px 15px 0;
+    margin-top: 0px;
+    position: relative;
+    display: block;
+}
+
+.main2 {
+    padding: 0 15px 0 25px;
+    position: relative;
+    display: block;
+}
+
+/* This is lat-am.html page attributes=========================================*/
+
+.peru img, .costarica img, .argentina img {
+    display: block;
+    margin:auto;
+    width:60%;
+    height: auto;
+    padding-top: 30px;
+    
+}
+
+.peru p {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+/* This is the Footer attributes===================================*/
+
+/*.footer {
+    width: 100%;
+    clear: both;
+    /*margin: auto;*/
+} */
+
+.footer {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #DBDCDE;
+  /*background-color: #efefef;*/
+  text-align: center;
+  clear: both;
+  overflow: hidden;
+}
+
+.footer ul {
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    bottom: 0; /*created the area around footer li*/
+    /*overflow: auto;*/
+    /*position: absolute;*/
+} 
+
+.footer li {
+    width: 50%;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    margin: auto;
+    float: left; /*was underneath until float left*/
+    /*overflow: auto;*/
+    /*position: relative;*/
+}
+
+
